@@ -1,0 +1,174 @@
+{
+  "best_global_step": null,
+  "best_metric": null,
+  "best_model_checkpoint": null,
+  "epoch": 5.0,
+  "eval_steps": 500,
+  "global_step": 500,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.25,
+      "grad_norm": 0.69020676612854,
+      "learning_rate": 4e-05,
+      "loss": 2.2524,
+      "step": 25
+    },
+    {
+      "epoch": 0.5,
+      "grad_norm": 0.23337692022323608,
+      "learning_rate": 4.797872340425532e-05,
+      "loss": 0.9706,
+      "step": 50
+    },
+    {
+      "epoch": 0.75,
+      "grad_norm": 0.22394298017024994,
+      "learning_rate": 4.531914893617021e-05,
+      "loss": 0.6865,
+      "step": 75
+    },
+    {
+      "epoch": 1.0,
+      "grad_norm": 0.283857136964798,
+      "learning_rate": 4.265957446808511e-05,
+      "loss": 0.6079,
+      "step": 100
+    },
+    {
+      "epoch": 1.25,
+      "grad_norm": 0.37581148743629456,
+      "learning_rate": 4e-05,
+      "loss": 0.5575,
+      "step": 125
+    },
+    {
+      "epoch": 1.5,
+      "grad_norm": 0.39907172322273254,
+      "learning_rate": 3.73404255319149e-05,
+      "loss": 0.5339,
+      "step": 150
+    },
+    {
+      "epoch": 1.75,
+      "grad_norm": 0.49691954255104065,
+      "learning_rate": 3.468085106382979e-05,
+      "loss": 0.5187,
+      "step": 175
+    },
+    {
+      "epoch": 2.0,
+      "grad_norm": 0.4983082711696625,
+      "learning_rate": 3.2021276595744685e-05,
+      "loss": 0.4768,
+      "step": 200
+    },
+    {
+      "epoch": 2.25,
+      "grad_norm": 0.5300617218017578,
+      "learning_rate": 2.9361702127659574e-05,
+      "loss": 0.4527,
+      "step": 225
+    },
+    {
+      "epoch": 2.5,
+      "grad_norm": 0.5760121941566467,
+      "learning_rate": 2.6702127659574473e-05,
+      "loss": 0.4296,
+      "step": 250
+    },
+    {
+      "epoch": 2.75,
+      "grad_norm": 0.5821927785873413,
+      "learning_rate": 2.4042553191489362e-05,
+      "loss": 0.411,
+      "step": 275
+    },
+    {
+      "epoch": 3.0,
+      "grad_norm": 0.6287952661514282,
+      "learning_rate": 2.1382978723404255e-05,
+      "loss": 0.4018,
+      "step": 300
+    },
+    {
+      "epoch": 3.25,
+      "grad_norm": 0.6798936724662781,
+      "learning_rate": 1.8723404255319148e-05,
+      "loss": 0.3514,
+      "step": 325
+    },
+    {
+      "epoch": 3.5,
+      "grad_norm": 0.7552319765090942,
+      "learning_rate": 1.6063829787234044e-05,
+      "loss": 0.3605,
+      "step": 350
+    },
+    {
+      "epoch": 3.75,
+      "grad_norm": 0.8399161100387573,
+      "learning_rate": 1.3404255319148936e-05,
+      "loss": 0.3607,
+      "step": 375
+    },
+    {
+      "epoch": 4.0,
+      "grad_norm": 0.9413677453994751,
+      "learning_rate": 1.074468085106383e-05,
+      "loss": 0.3613,
+      "step": 400
+    },
+    {
+      "epoch": 4.25,
+      "grad_norm": 0.8327155709266663,
+      "learning_rate": 8.085106382978725e-06,
+      "loss": 0.3194,
+      "step": 425
+    },
+    {
+      "epoch": 4.5,
+      "grad_norm": 0.9441165328025818,
+      "learning_rate": 5.4255319148936176e-06,
+      "loss": 0.3154,
+      "step": 450
+    },
+    {
+      "epoch": 4.75,
+      "grad_norm": 1.070012092590332,
+      "learning_rate": 2.7659574468085106e-06,
+      "loss": 0.3155,
+      "step": 475
+    },
+    {
+      "epoch": 5.0,
+      "grad_norm": 0.8520940542221069,
+      "learning_rate": 1.0638297872340426e-07,
+      "loss": 0.3037,
+      "step": 500
+    }
+  ],
+  "logging_steps": 25,
+  "max_steps": 500,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 6.864205605902746e+16,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}

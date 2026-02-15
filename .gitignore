@@ -1,0 +1,14 @@
+hf_models/
+outputs/
+unsloth_compiled_cache/
+llama-qagent-lora/
+
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+.ipynb_checkpoints/
+__pycache__/
+
